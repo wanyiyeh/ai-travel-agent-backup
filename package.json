@@ -13,7 +13,8 @@
     "seed": "tsx scripts/seed-test-data.ts",
     "backfill-places": "tsx scripts/backfill-place-cache.ts",
     "enrich-all": "tsx scripts/enrich-all-itineraries.ts",
-    "check-places": "tsx scripts/check-place-data.ts"
+    "check-places": "tsx scripts/check-place-data.ts",
+    "shadow-compare": "tsx scripts/shadow-compare-scheduler.ts"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
